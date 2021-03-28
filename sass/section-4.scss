@@ -1,0 +1,31 @@
+#section4{
+    height: 100vh;
+    // width: 100vw;
+    // border:2px solid red;
+    .block-center{
+        width: 60vw;
+        height: 100vh;
+        background:linear-gradient(360deg,var(--cornflower-light) 0%,var(--cornflower-light) 50%,white 50.1%);
+        margin:auto auto 0;
+        display: flex;
+        .medium-circle-purple{
+            width: 360px;
+            height: 360px;
+            background-color: white;
+            border-radius: 50%;
+            justify-content: center;
+            margin:auto;
+            border:48px solid var(--cornflower-light);
+            display: flex;
+        }
+    }
+}
+
+.dot-purple{
+    background:var(--cornflower-light);
+    width:80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    animation: expand 2s infinite linear;
+}

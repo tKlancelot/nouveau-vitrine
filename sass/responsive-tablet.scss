@@ -1,0 +1,107 @@
+@media screen and (orientation:landscape) and (max-width:1200px){
+    body{
+        // background:red;
+    }
+    .row2 .square-white{
+        width: 380px;
+        height: 380px;
+    }
+    #bandeHor{
+        flex-direction: initial;
+        width: 84%;
+        left: 8%;
+        top:117%;
+    }
+
+    .panneauCentre h3, #headRow h4, #section3 h3, #section5 .block-center h3, .bigSquare:first-child > :nth-child(2) h2{
+        font-size:1.6rem;
+    }
+
+    .small-square-white, .small-square-purple{
+        width: 200px;
+        height: 200px;
+    }
+    #ornement1{
+        display: none;
+    }
+
+    #section2 .section-legend .zoneLegend p{
+        font-size:.94rem;
+        text-align: center;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
+
+    #section2 .section-legend .zoneLegend{
+        width: 60%;
+    }
+
+    #section3 h3{
+        margin:0 10%;
+        width: 50%;
+        justify-content: flex-start;
+        color:var(--cornflower-medium);
+        height:10vh;
+        align-items: center;
+    }
+    .panneauCentre h3{
+        margin: auto 20%;
+    }
+
+    .paragraphe{
+        font-size: 0.8rem;
+    }
+
+    #section5 .block-center .bande-testimonial .carre-test{
+        border:12px solid var(--cornflower-light);
+        padding:0.6rem;
+    }
+
+    #section5 .block-center .bande-testimonial{
+        width: 90%;
+        left:5%;
+    }
+
+    .dotRow .dotFrame .littleDot{
+        width: 16px;
+        height: 16px;
+    }
+    .auteur{
+        font-size: 1rem;
+    }
+    #carousel1 .pict{
+        width: auto;
+    }
+
+    #carousel1 .pict .content p{
+        font-size:0.72rem;
+    }
+
+    #section3 .cadreCarousel{
+        margin: auto;
+    }
+    #carousel1 .pict .logo{
+        flex-basis: 100%;
+    }
+
+    #carousel1 .pict .content .paraContent{
+        height: 80%;
+    }
+    #carousel1 .pict .content h4{
+        font-size: 0.84rem;
+        text-decoration-thickness: 0.2rem;
+        padding-left: 0px;
+        letter-spacing: 0rem;
+        text-align: center;
+    }
+    #carousel1 .pict .content{
+        flex-basis:140%;
+    }
+
+    #section7 .bande-contact .cercle-contact{
+        width: 130px;
+        height: 130px;
+    }
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    cursor:url('../assets/elements/cursor-leviathan.ico')8 8, auto;
+}
+
+body, html{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    // filter: hue-rotate(-45deg);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--cornflower-dark);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+:root{
+    --cornflower-light: #dfcbf8;
+    --cornflower-medium: #c7ade9;
+    --cornflower-dark: #8f6bbe;
+    --thema-white: #fff;
+    --thema-white-transp: #fffc;
+    --font-francois:'Francois One', sans-serif;
+    --font-dm-sans:'DM Sans', sans-serif;
+}
+
+.theme-purple{
+    //tests
+    //init
+    --cornflower-light: #dfcbf8;
+    --cornflower-medium: #c7ade9;
+    --cornflower-dark: #8f6bbe;
+    --thema-white: #fff;
+    --thema-white-transp: #fffc;
+    --font-francois:'Francois One', sans-serif;
+    --font-dm-sans:'DM Sans', sans-serif;
+}
+// :root{
+    // }
+    .theme-alt{
+    --cornflower-light: #004d4d;
+    --cornflower-medium: #003333;
+    --cornflower-dark: 	#b3ffff;
+    --thema-white: 	#001a0f;
+    --thema-white-transp: #0006;
+    --font-francois:'Francois One', sans-serif;
+    --font-dm-sans:'DM Sans', sans-serif;
+}
+
+@import "section-1.scss";
+@import "section-2.scss";
+@import "section-3.scss";
+@import "section-4.scss";
+@import "section-5.scss";
+@import "section-6.scss";
+@import "section-7.scss";
+@import "responsive-tel.scss";
+@import "responsive-tablet.scss";
+
+#myBody{
+    height:700vh;
+}
+
+.d-flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+
+.darkNeon{
+    background-color:var(--cornflower-dark)!important;
+    color:white!important;
+}
+
+
+::selection{
+    background-color:var(--cornflower-light);
+}
+
+
+// --cornflower-light: #E4EAFF;
+// --cornflower-medium: #8FA6F5;
+// --cornflower-dark: #718deb;
+
+//green aqua
+// --cornflower-light: #c0ffe7;
+// --cornflower-medium: #8fe0c1;
+// --cornflower-dark: #77b69e;
+// --cornflower-light: #ffe4c0;
+// --cornflower-medium: #e9c596;
+// --cornflower-dark: #d6a86b;

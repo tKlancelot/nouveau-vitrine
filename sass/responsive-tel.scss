@@ -1,0 +1,409 @@
+@media screen and (max-width:800px){
+
+    /***********************/ 
+    /****    accueil   ****/ 
+    /***********************/ 
+
+    #myBody,
+    #section1{
+        width:100vw;
+    }
+
+    .row2 .square-white{
+        width: 120px;
+        height: 120px;
+    }
+
+    .bigSquare h1, .bigSquare h2, #headRow h4, .panneauCentre h3, #section3 h3, #section5 .block-center h3, #section6 .block-center h3{
+        font-size: 1.1rem;
+    }
+
+    .row2:nth-child(1){
+        height: 0;
+        width: 100%;
+    }
+
+    #block1 :first-child h1, .bigSquare:first-child > :nth-child(2) h2{
+        font-size: 1.2rem;
+        margin:auto;
+        // border:1px solid red;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+        width: -webkit-fill-available;
+        padding:4px;
+    }
+    #block1 .bigSquare:nth-child(2){
+        h1{
+            justify-content: flex-start;
+        }
+    }
+
+    .bigSquare:first-child > :nth-child(2) h2{
+        display: flex;
+        align-self: center;
+    }
+
+    .bigSquare:first-child > :nth-child(2) h2::before{
+        display: none;
+    }
+
+    #headRow{
+        width: 50%;
+        // border:1px solid blue;
+        h4{
+            text-indent: 1.6rem;
+            align-items: center;
+            &::after{
+                position: absolute;
+                height: 6vh;
+                width: 6vh;
+                top: 0;
+                right: 50%;
+                left:initial;
+            }
+        }
+    }
+
+    .bigSquare:first-child > :first-child{
+        height: 50vh;
+    }
+
+    .bigSquare:first-child > :nth-child(2){
+        height: 50vh;
+    }
+
+    #block1 .bigSquare .smallSquare{
+        height: 6vh;
+        width: 6vh;
+    }
+
+    @keyframes appearRight {
+        0% {
+            // transform: translateX(-50px);
+            opacity: 0;
+        }
+        
+        100% {
+            // transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    /***********************/ 
+    /****    navspy   ****/ 
+    /***********************/ 
+
+    #navSpy{
+        width: 50px;
+        height: 250px;
+        top:10%;
+    }
+
+    #navSpy a{
+        width: 32px;
+        height: 32px;
+    }
+
+    /***********************/ 
+    /****    carousel   ****/ 
+    /***********************/ 
+
+    .panneauCentre{
+        justify-content: center;
+        display: flex;
+        height: initial;
+    }
+    .panneauCentre h3{
+        margin:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 9vh;
+        text-align: center;
+        width: 100%;
+    }
+
+    #ornement1.mini-square-parent .mini-square-child{
+        left:25%;
+        top:25%;
+    }
+
+    #bandeHor{
+        width: 100%;
+        height: 90%;
+        left:0;
+        top:initial;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    #section2 .section-legend .zoneLegend p{
+        font-size: 0.72rem;
+        text-align: center;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #frameCircle{
+        position: relative;
+        align-self: center;
+    }
+
+    #frameCircle, #anim, #anim img{
+        width: 160px!important;
+        height: 160px;
+    }
+
+    #frameCircle{
+        width: 180px!important;
+        height: 180px;
+    }
+
+    .small-square-white{
+        left:initial!important;
+    }
+
+    .small-square-white, .small-square-purple{
+        width: 120px;
+        height: 120px;
+        margin:1rem;
+    }
+    .small-square-white{
+        position: relative;
+        left:34%;
+    }
+
+    #block1 .bigSquare .smallSquare{
+        top:94%;
+        border:1px solid red;
+        display: none;
+    }
+
+    #section2 .section-legend{
+        height: 14%;
+        bottom: -105%;
+    }
+
+    #section2 .section-legend .zoneLegend{
+        width: 84%;
+        border-width: 3px;
+    }
+
+    #ornement2.mini-square-parent, #ornement1.mini-square-parent{
+        display: none;
+    }
+
+    .dotRow .dotFrame .littleDot{
+        width: 14px;
+        height: 14px;
+    }
+    .dotRow .dotFrame .active-dot{
+        width: 10px;
+        height: 10px;
+    }
+
+
+    /***********************/ 
+    /****    parcours   ****/ 
+    /***********************/ 
+
+    #section3 .small-square-white{
+        display: none;
+    }
+
+
+    #section3 .cadreCarousel{
+        margin: auto;
+    }
+
+    #section3 h3{
+        height: 10vh;
+        margin:0 10%;
+        justify-content: initial;
+        align-items: center;
+        color:var(--cornflower-medium);
+    }
+
+
+    #carousel1{
+        width: 100%;
+    }
+
+    #carousel1 .pict{
+        // background-image:unset;
+        width: 320px;
+        height: 360px;  
+    }
+    #carousel1 .pict .logo{
+        flex-basis: 100%;
+    }
+
+    #carousel1 .pict .content p{
+        font-size: 0.72rem;
+        padding:6px;
+    }
+
+    #carousel1 .pict .content .paraContent{
+        width: 100%;
+    }
+
+    #carousel1 .pict .content h4{
+        padding-left: unset;
+        font-size: 0.9rem;
+        text-decoration:none;
+        text-align: center;
+    }
+
+    #carousel1 .pict .content .paraContent{
+        height: 100%;
+        border:unset;
+    }
+
+    /***********************/ 
+    /****   section 4   ****/ 
+    /***********************/ 
+    
+    
+    #section4 .block-center, #section5 .block-center{
+        width: 100vw;
+    }
+    
+    #section4 .block-center .medium-circle-purple{
+        width: 120px;
+        height: 120px;
+    }
+
+    /***********************/ 
+    /****   section 5   ****/ 
+    /***********************/ 
+    
+    #section5 .block-center{
+        flex-direction: column;
+    }
+
+    #section5 .block-center h3{
+        margin:auto;
+    }
+
+    #section5 .block-center .bande-testimonial{
+        flex-direction: column;
+        position: relative;
+        top:initial;
+        left:initial;
+        width: 100vw;
+        .carre-test{
+            border-width:0;
+            padding:0.48rem;
+            margin:0.25rem;
+            &:hover{
+                transform: translateX(50px);
+            }
+        }
+        .paragraphe{
+            font-size: 0.68rem;
+        }
+        .auteur{
+            font-size:0.84rem;
+        }
+    }
+    #section5 .block-center .bande-testimonial .carre-test{
+        width: 180px;
+        height: 180px;
+    }
+
+    /***********************/ 
+    /****   section 6   ****/ 
+    /***********************/ 
+
+    #section6 .block-center{
+        height: 90vh;
+        width: 100vw;
+        border:unset;
+        margin:auto 8%;
+        padding:0.5rem;
+        border-radius: 4px;
+    }
+
+
+    .section-input{
+        flex-direction: column;
+        label, input{
+            font-size: 0.72rem;
+        }
+    }
+
+    #section6 .block-center form{
+        padding:unset;
+    }
+
+    #section6 .block-center .section-input label{
+        width: 100%;
+    }
+    
+    #section6 .block-center .section-input input{
+        margin:0.25rem;
+    }
+
+    #section6 .block-center .section-input input[type=number]{
+        width: 20%;
+        margin:0.25rem;
+    }
+
+    #section6 .block-center .section-input textarea{
+        width: auto;
+        margin: 0.25rem;
+        padding:3px;
+        font-size:0.84rem;
+    }
+    
+    .section-input select, .section-input option{
+        font-size:0.72rem;
+        letter-spacing: 0.02rem;
+    }
+
+    #section6 .block-center .section-input input[type=submit]{
+        width: 50%;
+        margin:0.25rem auto;
+    }
+    #special-input{
+        margin: auto!important;
+    }
+
+    /***********************/ 
+    /****   section 7   ****/ 
+    /***********************/ 
+
+
+    #section7 .bande-contact{
+        // flex-direction: column;
+        height: 92vh;
+        margin:auto;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    #section7 .bande-contact .cercle-contact{
+        height: 100px;
+        height: 100px;
+        display: flex;
+        flex-basis: 100%;
+        background-color:unset;
+        border-radius: unset;
+    }
+    .buttonLinkedin a, .buttonMail a, .buttonDonwloadCv a, .buttonTelephone a, .buttonGithub a{
+        height: 40px;
+        width: 40px;
+    }
+
+    .modeContact{
+        background: #fff;
+        border-radius: 50%;
+        width: 100px;
+        flex-basis: unset!important;
+    }
+    #section7 .footer .bande-legale p{
+        font-size:0.84rem;
+    }
+}
