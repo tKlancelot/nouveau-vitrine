@@ -22,7 +22,9 @@ gtag('config', 'G-N91KK6BTFG');
 <?php require "sections/section-3.php"; ?>
 <?php require "sections/section-4.php"; ?>
 <?php require "sections/section-5.php"; ?>
-<?php require "sections/section-6.php"; ?>
+<?php
+//  require "sections/section-6.php"; 
+ ?>
 <?php require "sections/section-7.php"; ?>
 
 

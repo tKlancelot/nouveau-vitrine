@@ -27,7 +27,7 @@
         </div>
     </div>
     <nav id="navSpy" class="">
-        <?php for($i = 1; $i <= 7;$i++): ?>
+        <?php for($i = 1; $i <= 6;$i++): ?>
             <a href="#section<?= $i ?>"></a>
         <?php endfor ?>
     </nav>

@@ -374,23 +374,27 @@
     /***********************/ 
     /****   section 7   ****/ 
     /***********************/ 
+    #section6{
+        background-color:var(--cornflower-light);
+    }
 
-
-    #section7 .bande-contact{
-        // flex-direction: column;
-        height: 92vh;
+    #section6 .bande-contact{
+        flex-direction: column;
+        height: 96vh;
         margin:auto;
         width: 100vw;
         flex-wrap: wrap;
+        border:unset;
     }
 
-    #section7 .bande-contact .cercle-contact{
-        height: 100px;
-        height: 100px;
+    #section6 .bande-contact .cercle-contact{
+        width: 80px;
+        height: 80px;
         display: flex;
-        flex-basis: 100%;
+        // flex-basis: 100%;
         background-color:unset;
         border-radius: unset;
+        
     }
     .buttonLinkedin a, .buttonMail a, .buttonDonwloadCv a, .buttonTelephone a, .buttonGithub a{
         height: 40px;

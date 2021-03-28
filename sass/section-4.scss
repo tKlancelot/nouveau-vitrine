@@ -17,15 +17,76 @@
             margin:auto;
             border:48px solid var(--cornflower-light);
             display: flex;
+            flex-direction: column;
+            h4{
+                color:var(--cornflower-medium);
+                font-size:1.16rem;
+                letter-spacing:0.02rem;
+                font-weight: normal;
+                font-family: var(--font-francois);
+                margin: auto auto 3rem;
+            }
         }
     }
 }
 
+.dotFrame{
+    display: flex;
+    margin: -3rem auto auto;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 6vh;
+}
+
 .dot-purple{
     background:var(--cornflower-light);
-    width:80px;
-    height: 80px;
-    margin: auto;
+    display: flex;
+    width:40px;
+    height: 40px;
+    margin:auto auto;
     border-radius: 50%;
-    animation: expand 2s infinite linear;
+    &:nth-child(1){
+        animation: expand 2000ms linear infinite;
+    }
+    &:nth-child(2){
+        animation: expand2 2000ms linear infinite;
+    }
+    &:nth-child(3){
+        animation: expand 2s linear infinite;
+    }
+}
+
+@keyframes expand{
+    from{
+        width:40px;
+        height:40px;
+        opacity: 1;
+    }
+    50%{
+        width:20px;
+        height:20px;
+        opacity: 0.2;
+    }
+    to{
+        width:40px;
+        height:40px;
+        opacity: 1;
+    }
+}
+@keyframes expand2{
+    from{
+        width:20px;
+        height:20px;
+        opacity: 0.2;
+    }
+    50%{
+        width:40px;
+        height:40px;
+        opacity: 1;
+    }
+    to{
+        width:20px;
+        height:20px;
+        opacity: 0.2;
+    }
 }

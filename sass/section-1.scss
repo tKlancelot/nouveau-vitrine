@@ -166,8 +166,9 @@
     background-image: url("../assets/elements/icon-user.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 101%;
     border-radius: 50%;
+    // filter:opacity(0.6);
 }
 
 
@@ -199,11 +200,8 @@
     background-repeat: no-repeat;
     border-radius: 4px;
     transition: 0.4s;
-    &:nth-child(7){
-        background-image:url('../assets/icons/icon-phone.svg');
-    }
     &:hover{
-        background-color: var(--cornflower-dark);
+        background-color: var(--cornflower-medium);
     }
 }
 
@@ -231,8 +229,17 @@
     background-image:url('../assets/icons/icon-parcours.svg');
 }
 
+
 #navSpy :nth-child(3).active, #navSpy :nth-child(3):hover{
     background-image:url('../assets/icons/icon-parcours-hover.svg');
+}
+
+#navSpy :nth-child(4){
+    background-image:url('../assets/icons/icon-projects.svg');
+}
+
+#navSpy :nth-child(4).active, #navSpy :nth-child(4):hover{
+    background-image:url('../assets/icons/icon-projects-active.svg');
 }
 
 #navSpy :nth-child(5){
@@ -244,18 +251,22 @@
     background-image:url('../assets/icons/icon-testi-hover.svg');
 }
 
+// #navSpy :nth-child(6){
+//     background-image:url('../assets/icons/icon-formulaire.svg');
+//     background-size:80%;
+// }
+
+// #navSpy :nth-child(6).active, #navSpy :nth-child(6):hover{
+//     background-image:url('../assets/icons/icon-formulaire-hover.svg');
+// }
 #navSpy :nth-child(6){
-    background-image:url('../assets/icons/icon-formulaire.svg');
-    background-size:80%;
+    background-image:url('../assets/icons/icon-phone.svg');
 }
 
 #navSpy :nth-child(6).active, #navSpy :nth-child(6):hover{
-    background-image:url('../assets/icons/icon-formulaire-hover.svg');
-}
-
-#navSpy :nth-child(7).active, #navSpy :nth-child(7):hover{
     background-image:url('../assets/icons/icon-phone-hover.svg');
 }
+
 
 #panneauAngle{
     position: fixed;

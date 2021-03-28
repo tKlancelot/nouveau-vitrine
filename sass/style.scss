@@ -61,13 +61,13 @@ body::-webkit-scrollbar {
 @import "section-3.scss";
 @import "section-4.scss";
 @import "section-5.scss";
-@import "section-6.scss";
+// @import "section-6.scss";
 @import "section-7.scss";
 @import "responsive-tel.scss";
 @import "responsive-tablet.scss";
 
 #myBody{
-    height:700vh;
+    height:600vh;
 }
 
 .d-flex{
@@ -78,13 +78,17 @@ body::-webkit-scrollbar {
 }
 
 .darkNeon{
-    background-color:var(--cornflower-dark)!important;
+    background-color:var(--cornflower-medium)!important;
     color:white!important;
 }
 
 
 ::selection{
     background-color:var(--cornflower-light);
+}
+
+.reveal{
+    color:red!important;
 }
 
 

@@ -1,19 +1,23 @@
-#section7{
+#section6{
     background-color: var(--cornflower-medium);
     height: 100vh;
     display: flex;
     flex-direction: column;
     
     .bande-contact{
-        width: 80%;
+        width: 60vw;
         height: 50vh;
-        margin: 0 auto auto;
+        border:20px solid var(--thema-white);
+        border-top:none;
+        margin:0 auto;
         display: flex;
+        // box-sizing: border-box;
         justify-content: space-between;
         align-items: center;
+        background-color: var(--cornflower-light);
         .cercle-contact{
-            width: 160px;
-            height: 160px;
+            width: 140px;
+            height: 140px;
             // background-image: url("../assets/elements/socle.svg");
             // background-repeat: no-repeat;
             // background-position: 50% 80%; 
@@ -32,8 +36,8 @@
     .footer{
         // background:red;
         display: flex;
+        margin: auto auto 0;
         .bande-legale{
-            margin: auto;
             // width:50%;
             justify-content: center;
             p{

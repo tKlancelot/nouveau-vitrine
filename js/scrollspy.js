@@ -1,6 +1,7 @@
 const threshold = 0.6;
 const ratio = 0.6;
 let observer1 = null;
+const title = document.querySelector(`#section3 h3`);
 
 const activate = function(elems){
     const id = elems.getAttribute('id');

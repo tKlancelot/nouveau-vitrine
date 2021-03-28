@@ -1,4 +1,4 @@
-<div id="section7" class="d-flex" data-spy>
+<div id="section6" class="d-flex" data-spy>
     <div class="bande-contact">
         <div class="cercle-contact">
             <div class="modeContact">

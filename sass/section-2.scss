@@ -58,6 +58,8 @@
 #bandeHor .small-square-white, .small-square-purple{
     background-blend-mode: soft-light;
     display: flex;
+    background-image:url('../assets/elements/bande-oblique.svg');
+    background-position: center;
 }
 
 #bandeHor .small-square-white{
